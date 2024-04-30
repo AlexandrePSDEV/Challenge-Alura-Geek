@@ -1,0 +1,31 @@
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body {
+    display: block;
+    font-size: 100%;
+    list-style-type: none;
+    line-height: 1;
+    font: inherit;
+
+}
+header, footer {
+    display:block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
